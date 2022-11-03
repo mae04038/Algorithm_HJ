@@ -1,3 +1,4 @@
+# 우선순위큐: https://velog.io/@djagmlrhks3/Algorithm-BaekJoon-13549.-%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88-3-by-Python
 from collections import deque
 
 N, K = map(int, input().split())
