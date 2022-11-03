@@ -5,6 +5,7 @@ def solution(phone_book):
     for i, j in zip(phoneBook, phoneBook[1:]):
         if j.startswith(i): 
             answer = False
+    
          
     
     return answer
