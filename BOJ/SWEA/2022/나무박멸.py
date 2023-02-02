@@ -62,24 +62,7 @@ def cnt_remove(x, y):
 
 def put_remove(x, y): # 제초제 놓기
     # 도중에 벽(-1)이 있거나 나무가 아예 없는 칸(0)이 있으면 해당 칸까지 뿌리고 멈춤
-    # global gas_graph
-    # gas_graph[x][y] = c
-    # if trees[x][y] != 0:
-    #     for nx, ny in dx_dy:
-    #         for i in range(1, k+1):
-    #             cx, cy = x + nx*i, y + ny*i
-    #             if cx < 0 or cx >= n or cy < 0 or cy >= n :
-    #                 break
-    #             if trees[cx][cy] > 0:
-    #                 gas_graph[cx][cy] = c
-    #                 trees[cx][cy] = 0
-    #             elif trees[cx][cy] == 0:
-    #                 gas_graph[cx][cy] = c
-    #                 break
-    #             elif trees[cx][cy] == -1:
-    #                 break
-
-    ##########################
+    
     trees[x][y] = -(c+2)
     for nx, ny in dx_dy:
         for i in range(1, k+1):
